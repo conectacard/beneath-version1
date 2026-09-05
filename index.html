@@ -55,16 +55,13 @@
                 <p id="display-identity" class="text-xl font-bold text-emerald-400 uppercase">--</p>
             </div>
             <div>
-                <label class="block text-xs text-slate-400 mb-1">Introduce tu PIN o usa Biometría</label>
+                <label class="block text-xs text-slate-400 mb-1">Introduce tu PIN</label>
                 <input type="password" id="login-pin" maxlength="4" placeholder="••••" class="w-full px-4 py-3 bg-slate-950 border border-slate-700 rounded-lg text-slate-100 text-center tracking-widest text-xl focus:outline-none focus:border-emerald-500">
             </div>
             
-            <div class="flex gap-2">
-                <button onclick="verificarPin()" class="flex-1 py-3 bg-emerald-600 hover:bg-emerald-500 text-slate-950 font-bold rounded-lg transition-colors cursor-pointer text-xs">
+            <div>
+                <button onclick="verificarPin()" class="w-full py-3 bg-emerald-600 hover:bg-emerald-500 text-slate-950 font-bold rounded-lg transition-colors cursor-pointer text-xs">
                     Desbloquear (PIN)
-                </button>
-                <button onclick="simularBiometria()" class="px-4 py-3 bg-slate-800 hover:bg-slate-700 text-emerald-400 font-bold rounded-lg transition-colors cursor-pointer text-xs border border-slate-700" title="Usar Biometría">
-                    指 Biometría
                 </button>
             </div>
 
